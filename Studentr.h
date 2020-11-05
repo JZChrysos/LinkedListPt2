@@ -1,12 +1,10 @@
-#pragma once
-
-class Studentr{
-
- public:
-  Studentr(char*);
-  ~Studentr();
-  char* getName();
- private:
-  char* name;
-
+#include <iostream>
+#include <string>
+using namespace std;
+class Studentr {
+	public:
+		string first;
+		string last;
+		int ID;
+		double GPA;
 };

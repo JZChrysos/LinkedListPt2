@@ -4,7 +4,7 @@
 class Node{
 
  public:
-  Node* getNext();
+ Node* getNext();
   Studentr* getStudent();
   void setNext(Node*);
   Node(Studentr*);
